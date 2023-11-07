@@ -144,6 +144,7 @@ export const Menu = () => {
           </div>
 
           <motion.div
+            className="flex items-center justify-center"
             initial={"hidden"}
             animate={scrollingDown ? "visible" : "hidden"}
             variants={{
@@ -163,6 +164,7 @@ export const Menu = () => {
               },
             }}
           >
+            <div className="h-[20px] w-[1px] bg-[#e2e8ff14] mr-[20px]" />
             <Link className={``} href="/">
               <button
                 className={` py-[6px] px-[14px]

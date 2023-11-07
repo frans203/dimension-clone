@@ -19,7 +19,7 @@ html {
     linear-gradient(0deg, rgba(226, 232, 255, 0.1), rgba(226, 232, 255, 0.1));
 }
 
-* {
+button {
   font-family: "Inter", sans-serif;
 }
 
@@ -31,10 +31,6 @@ html {
       rgba(226, 232, 255, 0) 100.4%
     ),
     linear-gradient(0deg, rgba(226, 232, 255, 0.1), rgba(226, 232, 255, 0.1));
-}
-
-* {
-  font-family: "Inter", sans-serif;
 }
 
 .transition-opacity {
@@ -50,4 +46,8 @@ html {
     rgba(255, 255, 255, 0.1) 50%,
     rgba(255, 255, 255, 0) 100%
   );
+}
+
+h1 {
+  font-family: "Onest", sans-serif;
 }

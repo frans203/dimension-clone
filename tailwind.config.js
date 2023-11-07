@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Onest: ["Onest", "sans-serif"],
+      },
       transitionProperty: {
         left: "left",
         width: "width",
